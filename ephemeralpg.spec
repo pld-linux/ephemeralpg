@@ -1,13 +1,13 @@
 Summary:	Run tests on an isolated, temporary PostgreSQL database
 Name:		ephemeralpg
 Version:	2.5
-Release:	1
+Release:	2
 License:	ISC
 Group:		Applications/Databases
 URL:		http://ephemeralpg.org/
 Source0:	http://ephemeralpg.org/code/%{name}-%{version}.tar.gz
 # Source0-md5:	ba86b5f7a868f46fa314b0f6e563c750
-Requires:	postgresql-server >= 9.3
+Requires:	postgresql >= 9.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
